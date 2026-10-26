@@ -7,7 +7,7 @@ import "./styles.css";
 // StrictMode is intentionally left out: in development it runs effects twice,
 // which would double every dataLayer push and confuse GTM Preview while learning.
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/leaf-kettle-react">
     <StoreProvider>
       <App />
     </StoreProvider>
